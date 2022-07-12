@@ -2,6 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from calculator import Calculator
 from cat import Cat
 
 
@@ -18,3 +19,6 @@ if __name__ == '__main__':
 my_cat = Cat("Murzik")
 print(my_cat.name)
 my_cat.say()
+
+Calculator.plus(23452, 45656)
+Calculator.minus(3456345, 345)

@@ -4,3 +4,7 @@ class Cat:
 
     def say(self):
         print(f"{self.name} says Meow!")
+
+    @staticmethod
+    def aaa():
+        pass
